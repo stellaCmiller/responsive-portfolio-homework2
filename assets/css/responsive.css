@@ -1,17 +1,12 @@
-
-/*This is outside of the scope of the first assignment, but I thought I would experiment with responsive design anyway.*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
     .heading-container {
-        text-align: center;
-        width: 90%;
-        margin: auto;
-        float: none;
-        padding: 5px;
+        margin: 0px;
     }
-
-    nav {
+    .heading-container h1, nav {
+        text-align: center;
+        width: 100vw;
         float: none;
-        padding: 5px;
+        padding: 10px;
     }
 
     .profile, .portfolio-img {

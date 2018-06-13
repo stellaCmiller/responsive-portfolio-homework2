@@ -69,7 +69,10 @@ h3 {
 
 p { padding: 20px 20px;}
 
-li { display: inline;}
+li { 
+    display: inline;
+    padding: 10px;
+}
 
 nav {
     float: right;
